@@ -26,5 +26,14 @@ namespace ValueAndReferenceTypes
             y= temp;
         }
 
+        public void SwapByRef(ref int x, ref int y)
+        {
+            var temp = x;
+            x = y;
+            y = temp;
+        }
+
+
+
     }
 }

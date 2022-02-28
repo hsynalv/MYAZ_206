@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueAndReferenceTypesTests
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{EC723E9D-CF46-4509-831A-FF7E8D6EB047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefAndOutConsoleApp", "RefAndOutConsoleApp\RefAndOutConsoleApp.csproj", "{FAA43B00-3B23-4F7C-AF71-610A57207112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefAndOutConsoleApp", "RefAndOutConsoleApp\RefAndOutConsoleApp.csproj", "{FAA43B00-3B23-4F7C-AF71-610A57207112}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
