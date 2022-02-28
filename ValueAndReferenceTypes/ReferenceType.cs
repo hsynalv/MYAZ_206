@@ -33,6 +33,20 @@ namespace ValueAndReferenceTypes
             y = temp;
         }
 
+        public void CheckOutKeyworkdByRef(out int variable)
+        {
+            variable = 100;
+            return;
+        }
+
+        public void CheckOutKeyworkdByValue( int variable)
+        {
+            variable = 100;
+            return;
+        }
+
+
+
 
 
     }
