@@ -17,7 +17,6 @@ namespace ArrayTests
 
         [Theory]
         [InlineData(16)]
-        [InlineData(null)]
         [InlineData(32)]
         [InlineData(4)]
         public void check_DefaultSizeFeature(int size)
