@@ -1,5 +1,6 @@
-using DataStructers.Arrays;
+using System;
 using Xunit;
+using Array = DataStructers.Arrays.Array;
 
 namespace ArrayTests
 {
@@ -39,6 +40,21 @@ namespace ArrayTests
             var clonedArr = arr.Clone();
 
             Assert.IsType<Array>(clonedArr);
+        }
+
+        [Fact]
+        public void IndexOf_Test()
+        {
+            Array array = new(4);
+
+            array.SetValue(1, 0);
+            array.SetValue(2, 1);
+            array.SetValue(3, 2);
+            array.SetValue(4, 3);
+
+            var returnValue = array.IndexOf(67);
+            Assert.Equal(returnValue, -1);
+
         }
     }
 }

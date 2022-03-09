@@ -47,6 +47,18 @@ namespace DataStructers.Arrays
 
             return new CustomArrayEnumerator(innerArray);
         }
+
+        public int IndexOf(Object value)
+        {
+            for (int i = 0; i < innerArray.Length; i++)
+            {
+                if (GetValue(i).Equals(value))
+                {
+                    return i;
+                }
+            }
+            return -1;
+        }
     }
     
 }

@@ -2,7 +2,7 @@
 
 namespace DataStructers.Arrays
 {
-    internal class CustomArrayEnumerator : IEnumerator
+    public class CustomArrayEnumerator : IEnumerator
     {
      
         private Object[] _array;
