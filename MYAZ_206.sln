@@ -41,7 +41,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructers.LinkedList", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{B9FA79FC-2CFD-47A2-8CC8-903819B574FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedLİstTest", "LinkedLİstTest\LinkedLİstTest.csproj", "{F11AA972-E491-4FC1-B599-FCF80D70D44E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedLİstTest", "LinkedLİstTest\LinkedLİstTest.csproj", "{F11AA972-E491-4FC1-B599-FCF80D70D44E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
